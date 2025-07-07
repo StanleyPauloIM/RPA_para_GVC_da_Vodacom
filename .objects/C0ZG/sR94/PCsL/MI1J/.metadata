@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Expenses Advances & Ref…",
+  "Type": "Element",
+  "Id": "MI1Jj61Tlk2J22BHGIMF-Q",
+  "Reference": "cOOgsV6AuUWWlOfbT8aEXg/MI1Jj61Tlk2J22BHGIMF-Q",
+  "ParentRef": "cOOgsV6AuUWWlOfbT8aEXg/PCsL4-r1VUCM8Sqd8emNtw",
+  "Created": "2025-06-17T15:10:15.8774272Z",
+  "Updated": "2025-06-17T15:10:15.8774272Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

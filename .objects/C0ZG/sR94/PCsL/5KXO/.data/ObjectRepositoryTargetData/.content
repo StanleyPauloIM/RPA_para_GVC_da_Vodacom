@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xPOmu8NPwUiHW1td4ArVIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" CvElementArea="970, 402, 322, 39" CvType="InputBox" DesignTimeRectangle="970, 403, 322, 37" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ember338' tag='INPUT' /&gt;" Guid="b9fb1020-ba74-4667-a59e-2740e61d42ab" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" CvTextArea="897, 381, 60, 12" CvTextArgument="Amount *" CvType="Text" DesignTimeRectangle="899, 378, 58, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='       Amount     ' class='required' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Amount' /&gt;" Guid="aaa91f5f-7105-4aed-83e6-b9a6a360c96b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="32c826307f1112c3b1d968d4f50c7948.png" xmlns="">0I8EEGWbpRU2sQkn-it1jGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

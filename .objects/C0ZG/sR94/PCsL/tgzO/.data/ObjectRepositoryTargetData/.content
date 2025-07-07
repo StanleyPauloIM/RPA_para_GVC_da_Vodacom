@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="h0FRIloLV0KKmw0_meajIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="bd99f5c0-b855-45f0-aa8e-4f5ea51f586f" CvElementArea="1117, 719, 113, 38" CvTextArea="1128, 732, 89, 12" CvTextArgument="Save and New" CvType="Button" DesignTimeRectangle="1118, 721, 110, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember347' tag='BUTTON' /&gt;" Guid="b7f32892-b6c9-45d8-adf7-0e210bb2199f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="12, 707, 1318, 63" FuzzySelectorArgument="&lt;webctrl id='expense-action-toolbar' tag='DIV' type='' class='footer-container d-flex justify-content-lg-between align-items-center' aaname='                                            ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Why add expenses manually when you can get those receipts autoscanned. Learn More!&amp;#xA;Save and Close' /&gt;" Guid="eaf7ff7d-d047-471c-bf6e-b7895d1d4d9d" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="095f692c261f5f9e9998956439b8a8f7.png" xmlns="">07SuOvvGKfUiHtGjiqKVKcg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

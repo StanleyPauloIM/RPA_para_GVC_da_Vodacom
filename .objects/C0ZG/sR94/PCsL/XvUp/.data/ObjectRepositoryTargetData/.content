@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GoFsHlvpLkCtOpTSE8F4Kg" Reference="cOOgsV6AuUWWlOfbT8aEXg/XvUpy1vFIE-26IP-abb25w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="3531037f-afb9-46d7-b90f-f23ec44c4bc1" CvElementArea="1117, 719, 113, 38" CvTextArea="1128, 731, 89, 13" CvTextArgument="Save and New" CvType="Button" DesignTimeRectangle="1118, 721, 110, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember185' tag='BUTTON' /&gt;" Guid="4c84eb15-9533-42f5-8a0a-43ddf7597ecd" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ZohoExpenseRef' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a429acb83b70e312d9565a02b7fb4588.png" xmlns="">0GlJ3R2e8O0OrNK0fpbXCPQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

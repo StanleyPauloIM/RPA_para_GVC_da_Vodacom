@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HhougCtuDEqI3jl_SDeEAQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app" CVScreenId="b0520415-b481-4c5a-9b56-680d64dac84d" CvElementArea="435, 544, 463, 60" CvType="InputBox" DesignTimeRectangle="437, 545, 460, 57" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='notes' tag='TEXTAREA' type='' class='ember-text-area ember-view form-control' aaname='             Notes           ' /&gt;" Guid="4a8283af-b801-4906-969e-b0725164018e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Getting Started | Advances | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0520415-b481-4c5a-9b56-680d64dac84d" CvTextArea="436, 524, 38, 12" CvTextArgument="Notes" CvType="Text" DesignTimeRectangle="437, 521, 37, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='             Notes           ' tag='LABEL' type='' class='' check:innerText='Notes' /&gt;" Guid="ba413e66-ae61-4550-83d4-e3dfffa4d2b7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="10e34a26572fe7e65f3ffd5e8f5f5625.png" xmlns="">0Y1JkETJeukuOQxTpNF0twA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

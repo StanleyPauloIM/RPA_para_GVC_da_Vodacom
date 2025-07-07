@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DR1MGgHgRkGbFrb1nhPxbQ" Reference="cOOgsV6AuUWWlOfbT8aEXg/9vSTmODFvk6Py7qUaCGl_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="cd6d67a7-772a-433b-b56d-5c6df5544a1b" CvElementArea="793, 309, 226, 31" CvType="InputBox" DesignTimeRectangle="990, 311, 27, 28" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-label='Show dropdown menu' matching:aria-label='fuzzy' fuzzylevel:aria-label='0.0' tag='BUTTON' type='button' class='dropdown-toggle   btn btn-sm btn-outline-primary fw-medium me-md-2 dropdown-toggle-split' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="eb7008ad-1284-48bd-afba-58ea796c4dca" ScopeSelectorArgument="&lt;html app='msedge.exe' title='AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cd6d67a7-772a-433b-b56d-5c6df5544a1b" CvElementArea="793, 309, 226, 31" CvType="InputBox" DesignTimeRectangle="795, 311, 196, 28" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='               Add Unreported Expenses *             ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' tag='BUTTON' type='button' class='btn btn-sm btn-outline-primary fw-medium' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Add Unreported Expenses (3)' /&gt;" Guid="ddaf8547-4f15-45fd-b2ca-b1868fd9e008" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="07b84c08e72af67626bb4f214a0b3526.png" xmlns="">0l-MG5g80UU--IyzdIzpdmw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

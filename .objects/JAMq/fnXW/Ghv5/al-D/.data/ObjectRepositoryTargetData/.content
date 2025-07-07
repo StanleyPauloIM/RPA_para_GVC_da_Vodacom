@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="--58jZFcZkaLjslQOJvF_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app" CVScreenId="e8b67446-f2ec-4881-b825-bffb06644114" CvElementArea="436, 716, 126, 39" CvTextArea="447, 728, 103, 13" CvTextArgument="Record Advance" CvType="Button" DesignTimeRectangle="437, 718, 123, 36" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='ember197' tag='BUTTON' type='submit' class='btn btn-primary ember-view' aaname='   Record Advance ' check:innerText='Record Advance' /&gt;" Guid="e9a9b109-8925-4832-b92d-c8bf0dc9d34d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Advances | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="445, 724, 107, 23" Guid="16d5e2c6-72a0-4263-aa7e-9c7731696e3e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGsAAAAXCAYAAAAMX7G2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS5SURBVGhD7ZdJjw1RFMd9AGuJrYW12EhILIhYkIgQkUhYE0QkCIKQGKItEENoc2hTYki3KaZus27zPDTaq7qf4zq/qj7v3VfOq/eahZLU4p/UPefcc898bw0btrHiS/wnMIkligmTWKKYMIkligmTWKKYMIkliolwMWpn5DfdiP3uHlfFyiuxH70rqt/0D7H6auwXXYxNnmLs/shvvx37+efy5cDUY5HffDNO9lj8QiFcTGiP/POvzvd9cf7W2xTvvzv/TGiTDhfDme73zp/tcyZPseZa7H/Gzt995/zwLbaMYkVX7N9+c352x3+arB13axVJxfV+dv7o4/oAITvjZORHttVoCmjwkMnyCN6045GffMQOjvLH7K3x0QMNXivJuv7G+XsfnH/d7/yC8793l9rHGUNNFlNm5inbt5Af2q9o5nteTBOEC4SzyQJdr2oBosMIxI/I+f6K8x9/OL+8sybP+Pkm9P6fzg+IzA0JnI5R5JBnH/t7pYNniWPwCBod/OiTS/ZvvZWO35vS3XQJ+p5I0YC8ZBGoV5IkxiV27r9fL8tY5/wEohPfNFl777nE/zARJL7zpfMjJIAHHqQ+sQ/7sU19o4gui5z6h807u2tnZ33HD51WzWJaRbiwkoUiaDjC+uJz52+LkTrjd8m9Bh85qvidjM1119P94V6+X0gQ98k3FYaTjNlrr9M1ySJJ6NOzj0k3k0DuFdboJVh5ydomSWaM4wvnEhStcqr2jdiwR87gTHwgyF8G0mRporEF+eknoqQ7GavwkCXZ8OiQl8JbP+grPL0u0N3+ML1Oxh2ITN8Z0cSSvXkxZV1FuNBkETQcAFQIWWfjlKMpn+7BObBQLnuMxkGq+OFHlzxUQr0ApzAYHUrjoUBwCER2HKEDXWF1Kq1RsuBj64knKX9OR5wkZ8mlNKDYQDdPPFSzAdoHqWTOJZBMAg1imHiVB6yXXY6T+1wLOzueQ38s3xXNYlonHy40WbQ9L8GO3vSBMe9MuglFnyWBtKomE9BNS8V4jMXoUKcCp9AdOo4+HGJvNllqS3YkZ4MSgs7GPrqJrqVasU/lLRuy5xJYOoQgkjhNPN3AmNMx+FTOoKhbSZZ1rqJZTOvkw0U2QLQljl96kbYvDuDIqsFRkMVQO4uKZ8zkdVZ45zDOCFKjZPEI0jGnvx4XpEs4l8lg2cCznTtCz0WObqKjiYX+JiCHrYxS1tlY/U1n5cW0DuHCquYNctAncWbx4CjJzte1Ms9xbu7puHpnbRHH4HHXYKR1Z7EfPeGdFSYLsI89eme13Umf5Fay0MerNfugoBDQS8CyNow/mBYjlRyei36qvUcSoIWnyeKuYo3f31vsLD33sNxj6jvyje6sMKaqL0G4sJKFsSjiQmQU4CDrZByIsRjMvFV5vqEDZBip+mKiSkkm44OXj96F8KxksY/9FUkQe+gqgmsliy5lv/VU50XHSCNQvLIoPvSB8DWo8uiCp48qgC3hy5Q7pdU7izXncjdavjeLaRW/EVoEI0n/fbI8aPCsfw3Af4Y1vxsBPY3+Tf4E2Ee3ahENBdjRyO9WkOd7XkwTmMQSxYRJLFFMmMQSxYRJLFFMmMQSxYRJLFFAVPwvJ0fRk9aB1hUAAAAASUVORK5CYII=" SearchSteps="Image" TargetType="ImageBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="2" Y="-6" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="792a667fa74d7b174a2ae8dbe66787f9.png" xmlns="">0fVL1tGXsyUSssCLeo3yvvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

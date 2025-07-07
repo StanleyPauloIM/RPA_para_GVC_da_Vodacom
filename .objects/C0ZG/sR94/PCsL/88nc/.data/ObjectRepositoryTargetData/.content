@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DATvjZPIpE6LHohNH5sm4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="78756cfe-95c0-4061-9276-1b869e3e0b45" CvElementArea="449, 36, 203, 23" CvType="InputBox" DesignTimeRectangle="456, 40, 170, 15" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname=' Search Downloads' cls='DirectUIHWND' /&gt;&lt;ctrl name=' Search Downloads' role='pane' /&gt;&lt;ctrl automationid='SearchEditBox' /&gt;" Guid="5506b701-f654-4568-bb87-6e6c565eff9f" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="05af2fb01e35054d87dc9f768a0dbb0a.png" xmlns="">0rojyT497qEq6meRoK3wC2g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Paid Through",
+  "Type": "Element",
+  "Id": "u9fSnxff6EeYWfML4BjPTQ",
+  "Reference": "cOOgsV6AuUWWlOfbT8aEXg/u9fSnxff6EeYWfML4BjPTQ",
+  "ParentRef": "cOOgsV6AuUWWlOfbT8aEXg/Ghv52NbIf0iOXrUYs45JFA",
+  "Created": "2025-05-05T21:14:00.281814Z",
+  "Updated": "2025-05-05T21:14:00.281814Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

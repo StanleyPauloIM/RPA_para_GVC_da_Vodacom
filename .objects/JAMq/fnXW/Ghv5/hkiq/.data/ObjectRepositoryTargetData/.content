@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IofoKhQQfkiK13-0ntxIbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="6c74879a-300a-41e4-95a1-ee73a25e0610" CvElementArea="1116, 187, 143, 39" CvType="Button" DesignTimeRectangle="1117, 189, 140, 36" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='ember85' tag='BUTTON' type='button' class='btn btn-primary' aaname='                              Record Advance             ' check:innerText='Record Advance' /&gt;" Guid="fca9953a-ebac-4af9-a4a6-312aa97a9523" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Advances | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6c74879a-300a-41e4-95a1-ee73a25e0610" CvElementArea="1116, 187, 143, 39" CvTextArea="1144, 199, 103, 13" CvTextArgument="Record Advance" CvType="Button" DesignTimeRectangle="1145, 198, 101, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ember85' tag='SPAN' type='' class='' aaname='Record Advance' check:innerText='Record Advance' /&gt;" Guid="f900705a-95b1-4648-96cc-00abf0f301ff" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="93f0f4d648d46a503bf2b426065a0fbb.png" xmlns="">0fFE3kfhUtky30xOVnDtyNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

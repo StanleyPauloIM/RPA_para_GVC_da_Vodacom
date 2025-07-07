@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EYhILXv_8EmUGKfVsFAV1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="zoho.com/expense/logout.html" CVScreenId="8aba46f8-c412-438b-ac4a-ae26e1cf90e1" CvTextArea="1115, 157, 46, 12" CvTextArgument="SIGN IN" CvType="Text" DesignTimeRectangle="1101, 145, 74, 39" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='zgh-login' parentid='ze-header' tag='A' type='' aaname='Sign In' check:innerText='SIGN IN' /&gt;" Guid="a66b18cd-4d2f-4aaf-980a-c0e0b5fc7c29" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ZohoExpenseRef' title='Logout | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8aba46f8-c412-438b-ac4a-ae26e1cf90e1" CvTextArea="1115, 157, 46, 12" CvTextArgument="SIGN IN" CvType="Text" DesignTimeRectangle="1115, 157, 46, 12" ElementType="Text" Guid="d096db5b-e931-481c-87e1-f6de988eda05" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-2" Y="-3" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="7c907aadd3424e6a5e629174f873f314.png" xmlns="">0owtJusaPEEaTCiY4fxjMTg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

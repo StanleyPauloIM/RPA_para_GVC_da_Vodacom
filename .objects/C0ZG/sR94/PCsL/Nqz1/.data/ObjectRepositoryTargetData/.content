@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PEXRP9o0IEad22nFYdZ6BA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="accounts.zoho.com/signin" DesignTimeRectangle="226, 174, 500, 540" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='signin_flow' tag='DIV' type='' class='signin_box' aaname='     &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;    &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;    &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;&amp;#x9;         &amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9; &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;' check:innerText='Try smart sign-in&amp;#xA;Sign in&amp;#xA;to access Expense&amp;#xA;Change&amp;#xA;Next&amp;#xA;Sign in using&amp;#xA;  &amp;#xA;Don&amp;apos;t have a Zoho account?' /&gt;" Guid="0df06052-5b44-4df9-8e65-f10dfb366df8" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ZohoExpenseRef' title='Zoho Accounts' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4697fdd1-d2cd-4b30-8937-3180bef182f7" CvElementArea="274, 364, 401, 47" CvType="InputBox" DesignTimeRectangle="276, 366, 398, 44" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='login_id' tag='INPUT' type='text' class='textbox uvtextindent0' placeholder='Email address or mobile number' aaname='' /&gt;" Guid="bdbc621f-6650-46ed-b598-765e7afff1da" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="4697fdd1-d2cd-4b30-8937-3180bef182f7" CvTextArea="275, 286, 78, 26" CvTextArgument="Sign in" CvType="Text" DesignTimeRectangle="276, 284, 77, 29" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='headtitle' tag='SPAN' type='' class='' aaname='Sign in' check:innerText='Sign in' /&gt;" Guid="4c91c0d5-1227-4477-b03a-43b23b058b37" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5d932a56dd05fd7030ebf17d69f6bdf0.png" xmlns="">0ugpV88Gw0EqXGR_8KHiMmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

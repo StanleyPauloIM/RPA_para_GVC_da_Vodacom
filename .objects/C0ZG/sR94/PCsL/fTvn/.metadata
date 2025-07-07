@@ -1,0 +1,14 @@
+﻿{
+  "Name": "New Expense(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "fTvnUBKUekOX3zlJY2qn0Q",
+  "Reference": "cOOgsV6AuUWWlOfbT8aEXg/fTvnUBKUekOX3zlJY2qn0Q",
+  "ParentRef": "cOOgsV6AuUWWlOfbT8aEXg/PCsL4-r1VUCM8Sqd8emNtw",
+  "Created": "2025-07-02T12:13:45.7925775Z",
+  "Updated": "2025-07-02T12:13:45.7925775Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

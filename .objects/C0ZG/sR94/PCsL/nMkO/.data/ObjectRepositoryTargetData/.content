@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ztE82nj58kaN3CvhI94h-A" Reference="cOOgsV6AuUWWlOfbT8aEXg/nMkOIzurTESeOp-By8WpEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="3a8d2b76-ce71-4cf6-94de-3c119d1cbb2b" CvElementArea="684, 565, 127, 38" CvType="Button" DesignTimeRectangle="686, 516, 124, 35" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='ember122' tag='A' type='' class='ember-view btn btn-default' aaname='                                                                  New Expense                               ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='New Expense' /&gt;" Guid="5adb243a-a16f-4987-ab74-d25470629524" ScopeSelectorArgument="&lt;html app='msedge.exe' title='AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7a7722f3-60e3-4e4d-b39e-0a898eda9f99" CvTextArea="570, 568, 182, 15" CvTextArgument="Add Unreported Expenses (1)" CvType="Text" DesignTimeRectangle="560, 559, 204, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='ember120' tag='BUTTON' type='button' class='btn btn-link d-block m-auto mt-2' aaname='Add Unreported Expenses (1)' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Add Unreported Expenses (1)' /&gt;" Guid="364e5020-fba7-4429-9ee1-8eec3c5e83f1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="50c54e947a33dd5fb1801e1a84b2f036.png" xmlns="">096zWKPd2okir2vf1r3dwYA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

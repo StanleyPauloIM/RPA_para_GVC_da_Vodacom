@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qgnQtRGgDk2WEgN1NEmjTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app" CVScreenId="485dfb1a-b246-492a-8e72-c98f6b03be9c" CvTextArea="54, 367, 62, 12" CvTextArgument="Advances" CvType="Text" DesignTimeRectangle="20, 357, 193, 32" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='my_advances' tag='A' type='' class='ember-view nav-link' aaname='                                                                        Advances                                                                                                                           ' check:innerText='Advances' /&gt;" Guid="f82dabc6-4fea-4268-ad67-4f424566fa9d" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Getting Started | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="485dfb1a-b246-492a-8e72-c98f6b03be9c" CvTextArea="54, 367, 62, 12" CvTextArgument="Advances" CvType="Text" DesignTimeRectangle="56, 364, 60, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='my_advances' tag='SPAN' type='' class='nav-text align-middle' aaname='                         Advances                       ' check:innerText='Advances' /&gt;" Guid="e7ca06b2-4b3e-4605-9de2-00dd9b63c489" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e6e4bdafb5e6c4c8aad7c11bd2314bfc.png" xmlns="">04sfDZ5HkM0mNJVG71J8_-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

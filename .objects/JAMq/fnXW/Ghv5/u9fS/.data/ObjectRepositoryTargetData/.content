@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cuKoZkDv8UCDJg8Ax-ZbZA" Reference="cOOgsV6AuUWWlOfbT8aEXg/u9fSnxff6EeYWfML4BjPTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app" CVScreenId="b0520415-b481-4c5a-9b56-680d64dac84d" CvElementArea="435, 461, 463, 40" CvType="InputBox" DesignTimeRectangle="437, 463, 460, 37" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='reference-number' tag='INPUT' type='text' class='ember-text-field ember-view form-control' aaname='Reference#' /&gt;" Guid="66903624-3429-4922-b34f-8e390affd946" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Getting Started | Advances | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0520415-b481-4c5a-9b56-680d64dac84d" CvTextArea="436, 440, 72, 13" CvTextArgument="Reference#" CvType="Text" DesignTimeRectangle="437, 438, 71, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Reference#' tag='LABEL' type='' class='' check:innerText='Reference#' /&gt;" Guid="7612f387-feed-402c-9acf-29653d1220b6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1eaf8bfb1887a16a358da34d04131c7f.png" xmlns="">0AJqw6ku16Um4v2V9qj_epw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

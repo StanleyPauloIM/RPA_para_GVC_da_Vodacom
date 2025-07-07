@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LNHv6g_6h0CvZoPAfoIw-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="16c7577d-365c-4adf-9893-9a4880fd82db" CvTextArea="452, 463, 60, 15" CvTextArgument="computer" CvType="Text" DesignTimeRectangle="453, 460, 58, 19" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='attach-from-computer' tag='INPUT' type='file' /&gt;" Guid="1113c738-094f-41cb-a520-254f8417200b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="16c7577d-365c-4adf-9893-9a4880fd82db" CvTextArea="321, 462, 246, 13" CvTextArgument="Attach receipts from computer or cloud" CvType="Text" DesignTimeRectangle="60, 459, 771, 21" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aaname='         Attach receipts from  or        ' parentid='ember315' tag='DIV' /&gt;" Guid="617d51c5-4614-49a3-9b15-413fc5173f47" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="98838129c070946d2823ca79ac9f470d.png" xmlns="">0604ewB1xbkCcDDMoYtcNDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

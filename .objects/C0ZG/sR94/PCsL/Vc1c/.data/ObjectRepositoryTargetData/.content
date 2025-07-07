@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7qXajDfjl0iwLMDfj9zzXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="4e707f98-5549-4f0b-8a72-80b7ff64e1ad" CvElementArea="897, 354, 395, 39" CvType="InputBox" DesignTimeRectangle="912, 364, 350, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='ac-ember334' tag='SPAN' type='' class='ac-selected-label text-placeholder' aaname='   Select ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Select' /&gt;" Guid="cef9fcd4-93b3-4c06-b8c0-86432fe89e27" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4e707f98-5549-4f0b-8a72-80b7ff64e1ad" CvTextArea="898, 333, 68, 16" CvTextArgument="Category *" CvType="Text" DesignTimeRectangle="899, 331, 67, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='           Category         ' class='required' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Category' /&gt;" Guid="600be5f2-3f2d-4066-8d01-4fb8186b7c7a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e45ff25016c38ae9e49f040e7490fafa.png" xmlns="">0NFqrAwyHSU-IH3rn8oZ0PA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

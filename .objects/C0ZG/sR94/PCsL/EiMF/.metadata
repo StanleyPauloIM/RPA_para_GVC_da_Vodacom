@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Access Zoho Expense",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "EiMFEl_2jkiPN1YLMNYGNw",
+  "Reference": "cOOgsV6AuUWWlOfbT8aEXg/EiMFEl_2jkiPN1YLMNYGNw",
+  "ParentRef": "cOOgsV6AuUWWlOfbT8aEXg/PCsL4-r1VUCM8Sqd8emNtw",
+  "Created": "2025-05-07T18:12:28.0055726Z",
+  "Updated": "2025-05-07T18:12:28.0055726Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

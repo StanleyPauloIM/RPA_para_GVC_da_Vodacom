@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Getting Started  Zoho Expense",
+  "Type": "App",
+  "Id": "JAMqBKJUmkiPHL7fIp1wZg",
+  "Reference": "cOOgsV6AuUWWlOfbT8aEXg/JAMqBKJUmkiPHL7fIp1wZg",
+  "Created": "2025-05-05T20:58:15.1135366Z",
+  "Updated": "2025-05-05T20:58:15.1135366Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

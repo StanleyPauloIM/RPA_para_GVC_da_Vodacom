@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Try smart sign-in STEP …",
+  "Type": "Element",
+  "Id": "Nqz13-GxUEibJ9xy7wLFoA",
+  "Reference": "cOOgsV6AuUWWlOfbT8aEXg/Nqz13-GxUEibJ9xy7wLFoA",
+  "ParentRef": "cOOgsV6AuUWWlOfbT8aEXg/PCsL4-r1VUCM8Sqd8emNtw",
+  "Created": "2025-05-08T16:49:19.1269999Z",
+  "Updated": "2025-05-08T16:49:19.1269999Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

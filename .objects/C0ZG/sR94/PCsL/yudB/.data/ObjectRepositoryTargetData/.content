@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sDTrvCNyI0WRtVW8Fj7gHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="f6f77296-7cb0-45fe-bff2-a574783f62ec" CvTextArea="55, 336, 49, 15" CvTextArgument="Reports" CvType="Text" DesignTimeRectangle="20, 326, 193, 32" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='my_expensereports' tag='A' type='' class='ember-view nav-link' aaname='                                                                        Reports                                                                                                                           ' check:innerText='Reports' /&gt;" Guid="5cc67838-25b5-4d96-9287-8de5d84d5b3b" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ZohoExpenseRef' title='Home | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f6f77296-7cb0-45fe-bff2-a574783f62ec" CvTextArea="55, 336, 49, 15" CvTextArgument="Reports" CvType="Text" DesignTimeRectangle="56, 333, 48, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='my_expensereports' tag='SPAN' type='' class='nav-text align-middle' aaname='                         Reports                       ' check:innerText='Reports' /&gt;" Guid="1afd43b7-c47f-4e77-b000-677f05975d4d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bd19ff58d3d9c1e9d3400e788e8dfb38.png" xmlns="">0kOB_t-LxZEi8jJOQ_PUdTA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

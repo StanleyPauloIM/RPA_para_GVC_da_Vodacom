@@ -1,5 +1,12 @@
 {
-  "Tags": [],
+  "Tags": [
+    {
+      "Key": "Concur"
+    },
+    {
+      "Key": "Vodacom"
+    }
+  ],
   "SeparateRuntimeDependencies": true,
   "IncludeSources": true,
   "ConnectorKeys": []

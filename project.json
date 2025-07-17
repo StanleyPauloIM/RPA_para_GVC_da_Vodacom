@@ -8,7 +8,7 @@
     "UiPath.DocumentUnderstanding.Digitizer": "[4.7.0-preview]",
     "UiPath.DocumentUnderstanding.ML.Activities": "[1.34.0-preview]",
     "UiPath.DocumentUnderstanding.OCR.LocalServer": "[1.5.1]",
-    "UiPath.Excel.Activities": "[3.0.1]",
+    "UiPath.Excel.Activities": "[3.1.1]",
     "UiPath.GSuite.Activities": "[3.2.0-preview]",
     "UiPath.IntelligentOCR.Activities": "[6.25.0-preview]",
     "UiPath.MLServices.Activities": "[2.0.4]",
@@ -26,7 +26,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "25.0.166.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -75,6 +75,8 @@
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {},
+  "publishData": {
+    "iconUrl": ".package/vodafone.png"
+  },
   "targetFramework": "Windows"
 }

@@ -31,7 +31,19 @@
               "Value": "v"
             }
           ],
-          "RuleSet": null,
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": [
+              {
+                "Name": "Preenchido",
+                "Type": "Mandatory",
+                "LogicalOperator": "OR",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
           "DefaultValue": "",
           "DataSource": null
         },
@@ -53,7 +65,19 @@
               "Value": "c"
             }
           ],
-          "RuleSet": null,
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": [
+              {
+                "Name": "Preenchido",
+                "Type": "Mandatory",
+                "LogicalOperator": "OR",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
           "DefaultValue": "",
           "DataSource": null
         },
@@ -73,9 +97,25 @@
             {
               "Key": "Hotkey",
               "Value": "e"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.5"
             }
           ],
-          "RuleSet": null,
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": [
+              {
+                "Name": "Preenchido",
+                "Type": "Mandatory",
+                "LogicalOperator": "OR",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
           "DefaultValue": "",
           "DataSource": null
         },
@@ -97,7 +137,19 @@
               "Value": "a"
             }
           ],
-          "RuleSet": null,
+          "RuleSet": {
+            "Criticality": "Should",
+            "Rules": [
+              {
+                "Name": "Preenchido",
+                "Type": "Mandatory",
+                "LogicalOperator": "OR",
+                "ComparisonOperator": "Equals",
+                "Expression": "",
+                "SetValues": []
+              }
+            ]
+          },
           "DefaultValue": "",
           "DataSource": null
         },
@@ -120,7 +172,7 @@
             }
           ],
           "RuleSet": null,
-          "DefaultValue": "",
+          "DefaultValue": "Não mencionado",
           "DataSource": null
         },
         {
@@ -139,10 +191,14 @@
             {
               "Key": "Hotkey",
               "Value": "m"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.85"
             }
           ],
           "RuleSet": null,
-          "DefaultValue": "",
+          "DefaultValue": "Vodacom Moçambique",
           "DataSource": null
         },
         {
@@ -161,6 +217,10 @@
             {
               "Key": "Hotkey",
               "Value": "r"
+            },
+            {
+              "Key": "ExtractionConfidenceThreshold",
+              "Value": "0.5"
             }
           ],
           "RuleSet": null,

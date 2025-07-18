@@ -298,7 +298,7 @@
       <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Invoice_Extraction" sap:VirtualizedContainerService.HintSize="875,408.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Invoice_Extraction" sap:VirtualizedContainerService.HintSize="917,408.04" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="maisFicheiros" />
       <Variable x:TypeArguments="x:Boolean" Name="FolderExists" />
@@ -570,7 +570,7 @@
                                                       <av:PointCollection x:Key="ConnectorLocation">415,590 385.00000000000006,590 385.00000000000006,670 355,670</av:PointCollection>
                                                     </scg:Dictionary>
                                                   </sap:WorkflowViewStateService.ViewState>
-                                                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:03" DisplayName="Avisar &quot;tentativas esgotadas&quot;" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="MessageBox_42" Text="[&quot;Lamento Informar-lhe... &quot; &amp; vbCrLf &amp; &#xA;&quot;As tentativas para adicionar um ficheiro chegaram ao fim e nenhum ficheiro foi adicionado.&quot; &amp; vbCrLf &amp;&#xA;&quot;O robô irá encerrar a sessão devido à inatividade.&quot; &amp; vbCrLf &amp;&#xA;&quot;Se precisar de ajuda, por favor, tente novamente mais tarde ou contacte o suporte.&quot; &amp; vbCrLf &amp; vbCrLf &amp;&#xA;&quot;Obrigado pela compreensão!&quot;]" />
+                                                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:03" DisplayName="Avisar &quot;tentativas esgotadas&quot;" sap:VirtualizedContainerService.HintSize="334,85" sap2010:WorkflowViewState.IdRef="MessageBox_42" Text="[&quot;Lamento Informar-lhe... &quot; &amp; vbCrLf &amp; &#xA;&quot;As tentativas para adicionar um ficheiro chegaram ao fim e nenhum ficheiro foi adicionado.&quot; &amp; vbCrLf &amp;&#xA;&quot;O robô irá encerrar a sessão devido à inatividade.&quot; &amp; vbCrLf &amp;&#xA;&quot;Se precisar de ajuda, por favor, tente novamente mais tarde ou contacte o suporte.&quot; &amp; vbCrLf &amp; vbCrLf &amp;&#xA;&quot;Obrigado pela compreensão!&quot;]" />
                                                   <FlowStep.Next>
                                                     <FlowStep x:Name="__ReferenceID2" sap2010:WorkflowViewState.IdRef="FlowStep_5">
                                                       <sap:WorkflowViewStateService.ViewState>
@@ -1011,19 +1011,19 @@
                                           <av:PointCollection x:Key="ConnectorLocation">300,625 300,635</av:PointCollection>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence DisplayName="Aceder ao sitio web &amp; Preencher o formulario" sap:VirtualizedContainerService.HintSize="1056,5092" sap2010:WorkflowViewState.IdRef="Sequence_108">
+                                      <Sequence DisplayName="Aceder ao sitio web &amp; Preencher o formulario" sap:VirtualizedContainerService.HintSize="1056,4803.000000000001" sap2010:WorkflowViewState.IdRef="Sequence_108">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,5032" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OutUiElement="[outputElement]" ScopeGuid="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Timeout="60" Version="V2" WindowResize="Maximize">
+                                        <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1022,4743" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" OutUiElement="[outputElement]" ScopeGuid="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Timeout="60" Version="V2" WindowResize="Maximize">
                                           <uix:NApplicationCard.Body>
                                             <ActivityAction x:TypeArguments="x:Object">
                                               <ActivityAction.Argument>
                                                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                               </ActivityAction.Argument>
-                                              <Sequence DisplayName="Logging in to..." sap:VirtualizedContainerService.HintSize="988,4791" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                                              <Sequence DisplayName="Logging in to..." sap:VirtualizedContainerService.HintSize="988,4502" sap2010:WorkflowViewState.IdRef="Sequence_114">
                                                 <Sequence.Variables>
                                                   <Variable x:TypeArguments="sd2:DataTable" Name="dt_recibos" />
                                                 </Sequence.Variables>
@@ -1384,7 +1384,7 @@
                                                     </Sequence>
                                                   </TryCatch.Finally>
                                                 </TryCatch>
-                                                <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[FilesLocation]" sap:VirtualizedContainerService.HintSize="954,3225" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                                                <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[FilesLocation]" sap:VirtualizedContainerService.HintSize="954,2936" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                                                   <ui:ForEachFileX.Body>
                                                     <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                                                       <ActivityAction.Argument1>
@@ -1393,285 +1393,245 @@
                                                       <ActivityAction.Argument2>
                                                         <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                                       </ActivityAction.Argument2>
-                                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,2933" sap2010:WorkflowViewState.IdRef="Sequence_121">
+                                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="556,2644" sap2010:WorkflowViewState.IdRef="Sequence_121">
                                                         <sap:WorkflowViewStateService.ViewState>
                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT Attachments'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,227" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
-                                                          <uix:NClick.Target>
-                                                            <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="16c7577d-365c-4adf-9893-9a4880fd82db" ContentHash="LNHv6g_6h0CvZoPAfoIw-Q" CvTextArea="452, 463, 60, 15" CvTextArgument="computer" CvType="Text" DesignTimeRectangle="453, 460, 58, 19" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='attach-from-computer' tag='INPUT' type='file' /&gt;" Guid="1113c738-094f-41cb-a520-254f8417200b" InformativeScreenshot="98838129c070946d2823ca79ac9f470d.png" Reference="cOOgsV6AuUWWlOfbT8aEXg/8xsRxAjLTk2IBbbdkC2dqw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                                                              <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                  <uix:Target CVScreenId="16c7577d-365c-4adf-9893-9a4880fd82db" CvTextArea="321, 462, 246, 13" CvTextArgument="Attach receipts from computer or cloud" CvType="Text" DesignTimeRectangle="60, 459, 771, 21" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aaname='         Attach receipts from  or        ' parentid='ember315' tag='DIV' /&gt;" Guid="617d51c5-4614-49a3-9b15-413fc5173f47" SearchSteps="Selector, CV" />
-                                                                </scg:List>
-                                                              </uix:TargetAnchorable.Anchors>
-                                                            </uix:TargetAnchorable>
-                                                          </uix:NClick.Target>
-                                                          <uix:NClick.VerifyOptions>
-                                                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                              <uix:VerifyExecutionOptions.Retry>
-                                                                <InArgument x:TypeArguments="x:Boolean" />
-                                                              </uix:VerifyExecutionOptions.Retry>
-                                                              <uix:VerifyExecutionOptions.Timeout>
-                                                                <InArgument x:TypeArguments="x:Double" />
-                                                              </uix:VerifyExecutionOptions.Timeout>
-                                                            </uix:VerifyExecutionOptions>
-                                                          </uix:NClick.VerifyOptions>
-                                                          <sap:WorkflowViewStateService.ViewState>
-                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                            </scg:Dictionary>
-                                                          </sap:WorkflowViewStateService.ViewState>
-                                                        </uix:NClick>
-                                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" ClipboardMode="Never" DisplayName="Anexar imagem" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_24" InteractionMode="HardwareEvents" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[validFiles.FullName + &quot;[k(Enter)]&quot;]" Version="V4">
-                                                          <uix:NTypeInto.Target>
-                                                            <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="34305fad-1852-4f87-8f0f-1d0682607d74" ContentHash="YPgyba1wdU6YJSOPN0P5dQ" CvElementArea="197, 404, 251, 26" CvType="InputBox" DesignTimeRectangle="201, 410, 226, 15" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="f68df4a4-7063-4eda-86ab-cbaaaa1b8103" InformativeScreenshot="a962ff8b89e20ebfd2dae8e0129791a1.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/IiOnMuuR3EqAcV_rb0Rbbw" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                                                              <uix:TargetAnchorable.Anchors>
-                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                  <uix:Target CVScreenId="34305fad-1852-4f87-8f0f-1d0682607d74" CvTextArea="137, 410, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="138, 409, 54, 15" ElementType="Text" Guid="5a84b19d-2b9c-4e82-a1e2-5537b0454a23" SearchSteps="FuzzySelector, CV">
-                                                                    <uix:Target.FuzzySelectorArgument>
-                                                                      <InArgument x:TypeArguments="x:String">
-                                                                        <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_1">&lt;wnd ctrlid='1090' title='File &amp;amp;name:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='File &amp;amp;name:' /&gt;</Literal>
-                                                                      </InArgument>
-                                                                    </uix:Target.FuzzySelectorArgument>
-                                                                  </uix:Target>
-                                                                </scg:List>
-                                                              </uix:TargetAnchorable.Anchors>
-                                                            </uix:TargetAnchorable>
-                                                          </uix:NTypeInto.Target>
-                                                          <sap:WorkflowViewStateService.ViewState>
-                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                            </scg:Dictionary>
-                                                          </sap:WorkflowViewStateService.ViewState>
-                                                        </uix:NTypeInto>
-                                                        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_recibos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="486,2173" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
-                                                          <ui:ForEachRow.Body>
-                                                            <ActivityAction x:TypeArguments="sd2:DataRow">
-                                                              <ActivityAction.Argument>
-                                                                <DelegateInArgument x:TypeArguments="sd2:DataRow" Name="CurrentRow" />
-                                                              </ActivityAction.Argument>
-                                                              <Sequence DisplayName="Introduzindo os dados no formulario" sap:VirtualizedContainerService.HintSize="484,1991" sap2010:WorkflowViewState.IdRef="Sequence_123">
-                                                                <Sequence.Variables>
-                                                                  <Variable x:TypeArguments="x:String" Name="TudoCorr_resposta" />
-                                                                </Sequence.Variables>
+                                                        <If Condition="[validFiles.Extension.Equals(&quot;.xlsx&quot;, StringComparison.OrdinalIgnoreCase)]" sap:VirtualizedContainerService.HintSize="522,2362" sap2010:WorkflowViewState.IdRef="If_4">
+                                                          <If.Then>
+                                                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="520,169" sap2010:WorkflowViewState.IdRef="Sequence_146">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="486,109" sap2010:WorkflowViewState.IdRef="MessageBox_84" Text="[&quot;Não tem ficheiros para submissão&quot;]" />
+                                                            </Sequence>
+                                                          </If.Then>
+                                                          <If.Else>
+                                                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="520,2054" sap2010:WorkflowViewState.IdRef="Sequence_147">
+                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                </scg:Dictionary>
+                                                              </sap:WorkflowViewStateService.ViewState>
+                                                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT Attachments'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,227" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
+                                                                <uix:NClick.Target>
+                                                                  <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="16c7577d-365c-4adf-9893-9a4880fd82db" ContentHash="LNHv6g_6h0CvZoPAfoIw-Q" CvTextArea="452, 463, 60, 15" CvTextArgument="computer" CvType="Text" DesignTimeRectangle="453, 460, 58, 19" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='attach-from-computer' tag='INPUT' type='file' /&gt;" Guid="1113c738-094f-41cb-a520-254f8417200b" InformativeScreenshot="98838129c070946d2823ca79ac9f470d.png" Reference="cOOgsV6AuUWWlOfbT8aEXg/8xsRxAjLTk2IBbbdkC2dqw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                                    <uix:TargetAnchorable.Anchors>
+                                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                        <uix:Target CVScreenId="16c7577d-365c-4adf-9893-9a4880fd82db" CvTextArea="321, 462, 246, 13" CvTextArgument="Attach receipts from computer or cloud" CvType="Text" DesignTimeRectangle="60, 459, 771, 21" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aaname='         Attach receipts from  or        ' parentid='ember315' tag='DIV' /&gt;" Guid="617d51c5-4614-49a3-9b15-413fc5173f47" SearchSteps="Selector, CV" />
+                                                                      </scg:List>
+                                                                    </uix:TargetAnchorable.Anchors>
+                                                                  </uix:TargetAnchorable>
+                                                                </uix:NClick.Target>
+                                                                <uix:NClick.VerifyOptions>
+                                                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                                    <uix:VerifyExecutionOptions.Retry>
+                                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                                    </uix:VerifyExecutionOptions.Retry>
+                                                                    <uix:VerifyExecutionOptions.Timeout>
+                                                                      <InArgument x:TypeArguments="x:Double" />
+                                                                    </uix:VerifyExecutionOptions.Timeout>
+                                                                  </uix:VerifyExecutionOptions>
+                                                                </uix:NClick.VerifyOptions>
                                                                 <sap:WorkflowViewStateService.ViewState>
                                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                                                   </scg:Dictionary>
                                                                 </sap:WorkflowViewStateService.ViewState>
-                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Merchant'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NTypeInto_18" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[CurrentRow(0).ToString]" Version="V4">
-                                                                  <uix:NTypeInto.Target>
-                                                                    <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9391a8b4-b10e-4ef0-83a1-652299ae6f59" ContentHash="Dupye8zjb0GPjWpL51-2Ng" CvElementArea="898, 271, 395, 39" CvType="InputBox" DesignTimeRectangle="899, 273, 393, 37" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ember333' tag='INPUT' type='text' class='ember-text-field form-control ac-search-txt ember-view' placeholder='Select or type to add' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="054f6c9f-e7d4-40f4-8733-d4e140394c4f" InformativeScreenshot="0c3bd555505e1fb8bd7fa766b1f97eca.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/BYsW5u1ZrEiTDi68CVf3jg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                                                                      <uix:TargetAnchorable.Anchors>
-                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                          <uix:Target CVScreenId="9391a8b4-b10e-4ef0-83a1-652299ae6f59" CvTextArea="898, 252, 59, 12" CvTextArgument="Merchant" CvType="Text" DesignTimeRectangle="899, 249, 58, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                         ' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Merchant' /&gt;" Guid="71765e04-fbdf-494f-81e9-1494350fb792" SearchSteps="FuzzySelector, CV" />
-                                                                        </scg:List>
-                                                                      </uix:TargetAnchorable.Anchors>
-                                                                    </uix:TargetAnchorable>
-                                                                  </uix:NTypeInto.Target>
-                                                                  <uix:NTypeInto.VerifyOptions>
-                                                                    <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                                                      <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                        <InArgument x:TypeArguments="x:Boolean" />
-                                                                      </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                        <InArgument x:TypeArguments="x:Double" />
-                                                                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                    </uix:VerifyExecutionTypeIntoOptions>
-                                                                  </uix:NTypeInto.VerifyOptions>
-                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                    </scg:Dictionary>
-                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                </uix:NTypeInto>
-                                                                <Sequence DisplayName="Converter texto em data dd-MM-yyyy" sap:VirtualizedContainerService.HintSize="450.00000000000006,565" sap2010:WorkflowViewState.IdRef="Sequence_134">
-                                                                  <Sequence.Variables>
-                                                                    <Variable x:TypeArguments="x:String" Name="dataText" />
-                                                                    <Variable x:TypeArguments="s:DateTime" Name="dataDate" />
-                                                                    <Variable x:TypeArguments="x:String" Name="dataFormated" />
-                                                                  </Sequence.Variables>
-                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                    </scg:Dictionary>
-                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                  <uasd:FormatDateAsText DisplayName="Format date in CurrentRow(1) to dd-MM-yyyy." Format="d" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="FormatDateAsText_1" LocalizationCode="pt-MZ" Result="[dataFormated]" Source="[Convert.ToDateTime(CurrentRow(1).ToString)]" />
-                                                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Expense Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,279" sap2010:WorkflowViewState.IdRef="NTypeInto_19" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[dataFormated]" Version="V4">
-                                                                    <uix:NTypeInto.Target>
-                                                                      <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="dbbf660e-2dc6-4ce5-96b4-14f1f8ee871f" ContentHash="OcPju4REO06Yocfyh3YJmQ" CvElementArea="898, 188, 233, 41" CvType="InputBox" DesignTimeRectangle="900, 190, 230, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ember329' tag='INPUT' type='text' class='ember-text-field error date-picker ember-view form-control' placeholder='eg: 31 Jan 2020' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ddda53e2-5897-46be-85ff-8f38e86f6df3" InformativeScreenshot="2a4e89dfd003aecfd586c3e9eb0c5135.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/-KA9mRo5GEa3TX6TdII-5A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                                                                        <uix:TargetAnchorable.Anchors>
-                                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                            <uix:Target CVScreenId="dbbf660e-2dc6-4ce5-96b4-14f1f8ee871f" CvTextArea="899, 169, 96, 15" CvTextArgument="Expense Date *" CvType="Text" DesignTimeRectangle="900, 166, 95, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='required' aaname='     Expense Date   ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Expense Date' /&gt;" Guid="9eaebed3-6f4a-4292-afb9-1967f20ab5f2" SearchSteps="FuzzySelector, CV" />
-                                                                          </scg:List>
-                                                                        </uix:TargetAnchorable.Anchors>
-                                                                      </uix:TargetAnchorable>
-                                                                    </uix:NTypeInto.Target>
-                                                                    <uix:NTypeInto.VerifyOptions>
-                                                                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                                                        <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                          <InArgument x:TypeArguments="x:Boolean" />
-                                                                        </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                          <InArgument x:TypeArguments="x:Double" />
-                                                                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                      </uix:VerifyExecutionTypeIntoOptions>
-                                                                    </uix:NTypeInto.VerifyOptions>
-                                                                    <sap:WorkflowViewStateService.ViewState>
-                                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                      </scg:Dictionary>
-                                                                    </sap:WorkflowViewStateService.ViewState>
-                                                                  </uix:NTypeInto>
-                                                                </Sequence>
-                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Reference#'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NTypeInto_20" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[CurrentRow(2).ToString]" Version="V4">
-                                                                  <uix:NTypeInto.Target>
-                                                                    <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" ContentHash="Bq1OggePvUGurpsDiZKoNg" CvElementArea="897, 648, 395, 39" CvType="InputBox" DesignTimeRectangle="899, 649, 393, 37" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='reference-number' tag='INPUT' type='text' class='ember-text-field ember-view form-control' aaname='                    Reference#                          ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="877a9d61-2f4a-4c6b-9789-0ad8d629492a" InformativeScreenshot="8d9d3958280859c4a62e5b3e5e71d161.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/Jx7Dq9sj1UyzuHbkRyIAGQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                                                                      <uix:TargetAnchorable.Anchors>
-                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                          <uix:Target CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" CvTextArea="898, 627, 71, 13" CvTextArgument="Reference#" CvType="Text" DesignTimeRectangle="899, 625, 70, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                          ' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Reference#' /&gt;" Guid="5d29ad02-df05-45d8-bb9c-2dad46eab43d" SearchSteps="FuzzySelector, CV" />
-                                                                        </scg:List>
-                                                                      </uix:TargetAnchorable.Anchors>
-                                                                    </uix:TargetAnchorable>
-                                                                  </uix:NTypeInto.Target>
-                                                                  <uix:NTypeInto.VerifyOptions>
-                                                                    <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                                                      <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                        <InArgument x:TypeArguments="x:Boolean" />
-                                                                      </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                        <InArgument x:TypeArguments="x:Double" />
-                                                                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                    </uix:VerifyExecutionTypeIntoOptions>
-                                                                  </uix:NTypeInto.VerifyOptions>
-                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                    </scg:Dictionary>
-                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                </uix:NTypeInto>
-                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NTypeInto_21" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[CurrentRow(3).ToString]" Version="V4">
-                                                                  <uix:NTypeInto.Target>
-                                                                    <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" ContentHash="xPOmu8NPwUiHW1td4ArVIQ" CvElementArea="970, 402, 322, 39" CvType="InputBox" DesignTimeRectangle="970, 403, 322, 37" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ember338' tag='INPUT' /&gt;" Guid="b9fb1020-ba74-4667-a59e-2740e61d42ab" InformativeScreenshot="32c826307f1112c3b1d968d4f50c7948.png" Reference="cOOgsV6AuUWWlOfbT8aEXg/5KXOzqxUtkitBH5rYOHiHA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                                                                      <uix:TargetAnchorable.Anchors>
-                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                          <uix:Target CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" CvTextArea="897, 381, 60, 12" CvTextArgument="Amount *" CvType="Text" DesignTimeRectangle="899, 378, 58, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='       Amount     ' class='required' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Amount' /&gt;" Guid="aaa91f5f-7105-4aed-83e6-b9a6a360c96b" SearchSteps="FuzzySelector, CV" />
-                                                                        </scg:List>
-                                                                      </uix:TargetAnchorable.Anchors>
-                                                                    </uix:TargetAnchorable>
-                                                                  </uix:NTypeInto.Target>
-                                                                  <uix:NTypeInto.VerifyOptions>
-                                                                    <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                                                      <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                        <InArgument x:TypeArguments="x:Boolean" />
-                                                                      </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                        <InArgument x:TypeArguments="x:Double" />
-                                                                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                    </uix:VerifyExecutionTypeIntoOptions>
-                                                                  </uix:NTypeInto.VerifyOptions>
-                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                    </scg:Dictionary>
-                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                </uix:NTypeInto>
-                                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Description'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NTypeInto_22" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[CurrentRow(4).ToString +&quot; &quot;+ CurrentRow(5).ToString +&quot; &quot;+ CurrentRow(6).ToString]" Version="V4">
-                                                                  <uix:NTypeInto.Target>
-                                                                    <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" ContentHash="exUOXqISjEqofdXVBkG--Q" CvElementArea="897, 545, 397, 60" CvType="InputBox" DesignTimeRectangle="899, 547, 393, 57" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='description' tag='TEXTAREA' type='' class='ember-text-area ember-view form-control' aaname='                Description                   ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="736e20ca-80aa-43bb-935c-87265b287a49" InformativeScreenshot="b5f2f30a0b695d078c46442c85c6b409.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/LSpveKXZr0-zCi_H8SAAtg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                                                                      <uix:TargetAnchorable.Anchors>
-                                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                                          <uix:Target CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" CvTextArea="898, 525, 71, 16" CvTextArgument="Description" CvType="Text" DesignTimeRectangle="899, 523, 70, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   ' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Description' /&gt;" Guid="5f68ca1b-62e3-47f6-b102-f03d49fd7fa3" SearchSteps="FuzzySelector, CV" />
-                                                                        </scg:List>
-                                                                      </uix:TargetAnchorable.Anchors>
-                                                                    </uix:TargetAnchorable>
-                                                                  </uix:NTypeInto.Target>
-                                                                  <uix:NTypeInto.VerifyOptions>
-                                                                    <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                                                      <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                        <InArgument x:TypeArguments="x:Boolean" />
-                                                                      </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                                                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                        <InArgument x:TypeArguments="x:Double" />
-                                                                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                                                    </uix:VerifyExecutionTypeIntoOptions>
-                                                                  </uix:NTypeInto.VerifyOptions>
-                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                    </scg:Dictionary>
-                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                </uix:NTypeInto>
-                                                                <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="YesNo" ChosenButton="[TudoCorr_resposta]" DisplayName="Confirmar..." sap:VirtualizedContainerService.HintSize="450,118" sap2010:WorkflowViewState.IdRef="MessageBox_76" Text="[&quot;Esta tudo correcto? (Edite o que precisar)&quot;]">
-                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                    </scg:Dictionary>
-                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                </ui:MessageBox>
-                                                                <If sap2010:Annotation.AnnotationText="Tentar com retry scope" Condition="[TudoCorr_resposta.Equals(&quot;Yes&quot;)]" DisplayName="Verificar se esta tudo de acordo" sap:VirtualizedContainerService.HintSize="450,1020" sap2010:WorkflowViewState.IdRef="If_2">
-                                                                  <sap:WorkflowViewStateService.ViewState>
-                                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                      <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
-                                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                    </scg:Dictionary>
-                                                                  </sap:WorkflowViewStateService.ViewState>
-                                                                  <If.Then>
-                                                                    <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,432" sap2010:WorkflowViewState.IdRef="Sequence_131">
+                                                              </uix:NClick>
+                                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" ClipboardMode="Never" DisplayName="Anexar imagem" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,251" sap2010:WorkflowViewState.IdRef="NTypeInto_24" InteractionMode="HardwareEvents" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[validFiles.FullName + &quot;[k(Enter)]&quot;]" Version="V4">
+                                                                <uix:NTypeInto.Target>
+                                                                  <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="34305fad-1852-4f87-8f0f-1d0682607d74" ContentHash="YPgyba1wdU6YJSOPN0P5dQ" CvElementArea="197, 404, 251, 26" CvType="InputBox" DesignTimeRectangle="201, 410, 226, 15" ElementType="InputBox" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="f68df4a4-7063-4eda-86ab-cbaaaa1b8103" InformativeScreenshot="a962ff8b89e20ebfd2dae8e0129791a1.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/IiOnMuuR3EqAcV_rb0Rbbw" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                                    <uix:TargetAnchorable.Anchors>
+                                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                        <uix:Target CVScreenId="34305fad-1852-4f87-8f0f-1d0682607d74" CvTextArea="137, 410, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="138, 409, 54, 15" ElementType="Text" Guid="5a84b19d-2b9c-4e82-a1e2-5537b0454a23" SearchSteps="FuzzySelector, CV">
+                                                                          <uix:Target.FuzzySelectorArgument>
+                                                                            <InArgument x:TypeArguments="x:String">
+                                                                              <Literal x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="Literal`1_1">&lt;wnd ctrlid='1090' title='File &amp;amp;name:' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='File &amp;amp;name:' /&gt;</Literal>
+                                                                            </InArgument>
+                                                                          </uix:Target.FuzzySelectorArgument>
+                                                                        </uix:Target>
+                                                                      </scg:List>
+                                                                    </uix:TargetAnchorable.Anchors>
+                                                                  </uix:TargetAnchorable>
+                                                                </uix:NTypeInto.Target>
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                              </uix:NTypeInto>
+                                                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_recibos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="486,1516" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+                                                                <ui:ForEachRow.Body>
+                                                                  <ActivityAction x:TypeArguments="sd2:DataRow">
+                                                                    <ActivityAction.Argument>
+                                                                      <DelegateInArgument x:TypeArguments="sd2:DataRow" Name="CurrentRow" />
+                                                                    </ActivityAction.Argument>
+                                                                    <Sequence DisplayName="Introduzindo os dados no formulario" sap:VirtualizedContainerService.HintSize="484,1343" sap2010:WorkflowViewState.IdRef="Sequence_123">
+                                                                      <Sequence.Variables>
+                                                                        <Variable x:TypeArguments="x:String" Name="TudoCorr_resposta" />
+                                                                      </Sequence.Variables>
                                                                       <sap:WorkflowViewStateService.ViewState>
                                                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                         </scg:Dictionary>
                                                                       </sap:WorkflowViewStateService.ViewState>
-                                                                      <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Submeter formulario n" ClickType="Single" DisplayName="Click 'Save and New(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,258" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
-                                                                        <uix:NClick.Target>
-                                                                          <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="3531037f-afb9-46d7-b90f-f23ec44c4bc1" ContentHash="GoFsHlvpLkCtOpTSE8F4Kg" CvElementArea="1117, 719, 113, 38" CvTextArea="1128, 731, 89, 13" CvTextArgument="Save and New" CvType="Button" DesignTimeRectangle="1118, 721, 110, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember185' tag='BUTTON' /&gt;" Guid="4c84eb15-9533-42f5-8a0a-43ddf7597ecd" InformativeScreenshot="a429acb83b70e312d9565a02b7fb4588.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/XvUpy1vFIE-26IP-abb25w" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ZohoExpenseRef' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
-                                                                        </uix:NClick.Target>
-                                                                        <uix:NClick.VerifyOptions>
-                                                                          <uix:VerifyExecutionOptions DisplayName="Button 'Button 'Save and New''" Mode="Appears">
-                                                                            <uix:VerifyExecutionOptions.Retry>
+                                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Merchant'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NTypeInto_18" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[CurrentRow(0).ToString]" Version="V4">
+                                                                        <uix:NTypeInto.Target>
+                                                                          <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9391a8b4-b10e-4ef0-83a1-652299ae6f59" ContentHash="Dupye8zjb0GPjWpL51-2Ng" CvElementArea="898, 271, 395, 39" CvType="InputBox" DesignTimeRectangle="899, 273, 393, 37" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ember333' tag='INPUT' type='text' class='ember-text-field form-control ac-search-txt ember-view' placeholder='Select or type to add' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="054f6c9f-e7d4-40f4-8733-d4e140394c4f" InformativeScreenshot="0c3bd555505e1fb8bd7fa766b1f97eca.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/BYsW5u1ZrEiTDi68CVf3jg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                                            <uix:TargetAnchorable.Anchors>
+                                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                                <uix:Target CVScreenId="9391a8b4-b10e-4ef0-83a1-652299ae6f59" CvTextArea="898, 252, 59, 12" CvTextArgument="Merchant" CvType="Text" DesignTimeRectangle="899, 249, 58, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                         ' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Merchant' /&gt;" Guid="71765e04-fbdf-494f-81e9-1494350fb792" SearchSteps="FuzzySelector, CV" />
+                                                                              </scg:List>
+                                                                            </uix:TargetAnchorable.Anchors>
+                                                                          </uix:TargetAnchorable>
+                                                                        </uix:NTypeInto.Target>
+                                                                        <uix:NTypeInto.VerifyOptions>
+                                                                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                                            <uix:VerifyExecutionTypeIntoOptions.Retry>
                                                                               <InArgument x:TypeArguments="x:Boolean" />
-                                                                            </uix:VerifyExecutionOptions.Retry>
-                                                                            <uix:VerifyExecutionOptions.Target>
-                                                                              <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="22d10b88-43b3-400b-9dcf-8c092b1492e1" ContentHash="w4vaIwAMeUazTwcjtxNuLA" CvElementArea="1117, 719, 113, 38" CvTextArea="1128, 732, 89, 12" CvTextArgument="Save and New" CvType="Button" DesignTimeRectangle="1118, 721, 110, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember168' tag='BUTTON' /&gt;" Guid="29d2efe6-64a7-4d31-ad95-8b92133de51f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHIAAAAnCAYAAADTnhw5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUdSURBVHhe7Zs/aBtXHMe1adPm0Vs2bx6zafOmMZu2bhq9afOWqbikRCS0TgkRARMRaFQTECnEIcYVpqCSUjlD3RiDXQeMOxSK7vrr93v3fnfvTmf7rLjEz7wffJF07//v836/925QRbzdCPMgb4hlQP4TiPz5t8gff4nsnf7rdQ1FNmREVrYlIFngAbojsrJhJiBJuaiB1/UVmaklIH00uicyU0tAFlX0uv5S8yAdl5oH6bjUPEjHpeZBOi41D9JxqXmQjkvNg3RcarODPAml/zaQ5vpEmhuB9D6ExfVc0VEoa1jPsKjsNJQeyvqH02XDXwJZ2/18a1ebDeRRIHe+nsjct4G0scD29xO5tTqRxrbDMN8HcuvLiXSKyk4DaaCs8jiQUa6s8xRr33AU5PAVFvVdblE7gdQeBjKwn30MZbgfyuij9aykxgdoe1jCQcgMI45xXFAW6bxyU8b5lQBZuzeRxVfZORWCNOsen1jP/iepXR3IjJCKXkykiiiduw8H4HPhZbzY8Ru0zQHv9lDveRD/3g3kNqK9yoj/CkIUDM5wyOZrlKPvGsaI6q6ncxpswMHos9HBc5RXAULnEAnjLKBtNA4ANXA8XASytRW3ab9Py7IgQ+k+T9fNz+aOWTfmWnmUpu7Ih+jz7pHp612ANQTSvSR8tU9KrdUHE1lGat3MR87vWPgjOEXPlEPA0UmfoC2cvpw4A+csfrd+5fdQWnB8Yyt1DB01/yLXP3UcyDLGaO+a3+i3Ced98S7+TZAVANI5jEeBzMOxa1qX8HQcRPVqN3bseSA558FLrJsb0TjcBslNyrK+ZiCzWVa5bvisnoAL5e7jOMIb23Fdzrf2zGzmS0htNpAUFj/4CVDgTO686kM4YW+63hiQh78FsmgcwWfdZxYcOyVzV3awK5GWmJoiYYyplJ3XMeph89wBSNsxlae2Y1IY0TgPcn3yWQmQhLCCNS8YeCnIGE79R2vuUBt14znF7aLv2EiNe4F0EKW1HudolU2Nfb7UZgdpC1C7uPBUAKFvfq88iQEzxSwyqiyQCox1CXVxYKBuow/TJiOk8U2WZxSnMaZtptYFOHEBkV0KJMfJb44SZ2Qyf2SYOsZl9Nsgl7GZq4iy/PybO3G74cCA+xmbk3Pbxwa/Dz8wWtFfFLmZcS+W2gwgQ9nERKau3CZ90hF6hg6TfJ9zBPpgCm0BKNPsyr55XhQpZ4nOgBO6yUUqdmTpiKQDkzKI/ZUFCY22AAVR1URKtiNyactulxM3C8blLb/+OoXf4lxxFxgXtblAajNFZB8XGe7ovt4ENSLxOsLDPH8ZGnLROUfQ0XOAWX1iL2D6jOz/gHo4O6YWaUD2zGYZI33zPCoF0oyz9NaMg/kzBZY5I9Nn8fnNNmeekQdoh3HSy5GJWsxTN28ffqthM8dgtV55qc2WWrHwzjomhEXw1hd9IpLWDtLy9jdYJCY4h/J51GW0ZhzxIT43629yC9jD4pGOohSF9uy3W/AiHjkS/WoqrmG8JVy+yoGE9HaMcejIMrfWLEgIWaiB9gqSc7Jv6/y8nXtdIbhMWjeZIMlKl5Tap52RAHbeO1zpd8EC8ZJ09rthqugyhXGKysqIc7zy9z3jl1lS5WWldjWXHa/PJjUP0nGpeZCOS82DdFxqHqTjUvMgHZeaB+m41DxIx6WWgPT//XBPhf/98P/Gck+F/8by/490S2RV+P9IGgtI2QO9viIbMrIh0jIgvblrHuSNMJH/AP8MXRqZFXaDAAAAAElFTkSuQmCC" InformativeScreenshot="ecbb9d145d736bad5d673d7c85f2207d.png" Reference="cOOgsV6AuUWWlOfbT8aEXg/7GtUACghiUGEo1BeIhXXCA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
-                                                                            </uix:VerifyExecutionOptions.Target>
-                                                                            <uix:VerifyExecutionOptions.Timeout>
+                                                                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
                                                                               <InArgument x:TypeArguments="x:Double" />
-                                                                            </uix:VerifyExecutionOptions.Timeout>
-                                                                          </uix:VerifyExecutionOptions>
-                                                                        </uix:NClick.VerifyOptions>
+                                                                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                          </uix:VerifyExecutionTypeIntoOptions>
+                                                                        </uix:NTypeInto.VerifyOptions>
                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                                                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                                            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                                                           </scg:Dictionary>
                                                                         </sap:WorkflowViewStateService.ViewState>
-                                                                      </uix:NClick>
-                                                                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="382,114" sap2010:WorkflowViewState.IdRef="Delay_8" />
-                                                                    </Sequence>
-                                                                  </If.Then>
-                                                                  <If.Else>
-                                                                    <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,427" sap2010:WorkflowViewState.IdRef="Sequence_132">
-                                                                      <sap:WorkflowViewStateService.ViewState>
-                                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                                        </scg:Dictionary>
-                                                                      </sap:WorkflowViewStateService.ViewState>
-                                                                      <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="Ok" ChosenButton="[TudoCorr_resposta]" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="382,118" sap2010:WorkflowViewState.IdRef="MessageBox_78" Text="[&quot;Por favor corrija depois clique OK&quot;]">
+                                                                      </uix:NTypeInto>
+                                                                      <Sequence DisplayName="Converter texto em data dd-MM-yyyy" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_134">
+                                                                        <Sequence.Variables>
+                                                                          <Variable x:TypeArguments="x:String" Name="dataText" />
+                                                                          <Variable x:TypeArguments="s:DateTime" Name="dataDate" />
+                                                                          <Variable x:TypeArguments="x:String" Name="dataFormated" />
+                                                                        </Sequence.Variables>
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                        <uasd:FormatDateAsText DisplayName="Format date in CurrentRow(1) to dd-MM-yyyy." Format="d" sap:VirtualizedContainerService.HintSize="416,226" sap2010:WorkflowViewState.IdRef="FormatDateAsText_1" LocalizationCode="pt-MZ" Result="[dataFormated]" Source="[Convert.ToDateTime(CurrentRow(1).ToString)]" />
+                                                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Expense Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,279" sap2010:WorkflowViewState.IdRef="NTypeInto_19" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[dataFormated]" Version="V4">
+                                                                          <uix:NTypeInto.Target>
+                                                                            <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="dbbf660e-2dc6-4ce5-96b4-14f1f8ee871f" ContentHash="OcPju4REO06Yocfyh3YJmQ" CvElementArea="898, 188, 233, 41" CvType="InputBox" DesignTimeRectangle="900, 190, 230, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ember329' tag='INPUT' type='text' class='ember-text-field error date-picker ember-view form-control' placeholder='eg: 31 Jan 2020' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ddda53e2-5897-46be-85ff-8f38e86f6df3" InformativeScreenshot="2a4e89dfd003aecfd586c3e9eb0c5135.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/-KA9mRo5GEa3TX6TdII-5A" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                                              <uix:TargetAnchorable.Anchors>
+                                                                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                                  <uix:Target CVScreenId="dbbf660e-2dc6-4ce5-96b4-14f1f8ee871f" CvTextArea="899, 169, 96, 15" CvTextArgument="Expense Date *" CvType="Text" DesignTimeRectangle="900, 166, 95, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='required' aaname='     Expense Date   ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Expense Date' /&gt;" Guid="9eaebed3-6f4a-4292-afb9-1967f20ab5f2" SearchSteps="FuzzySelector, CV" />
+                                                                                </scg:List>
+                                                                              </uix:TargetAnchorable.Anchors>
+                                                                            </uix:TargetAnchorable>
+                                                                          </uix:NTypeInto.Target>
+                                                                          <uix:NTypeInto.VerifyOptions>
+                                                                            <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                                              <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                                <InArgument x:TypeArguments="x:Boolean" />
+                                                                              </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                              <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                                <InArgument x:TypeArguments="x:Double" />
+                                                                              </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                            </uix:VerifyExecutionTypeIntoOptions>
+                                                                          </uix:NTypeInto.VerifyOptions>
+                                                                          <sap:WorkflowViewStateService.ViewState>
+                                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                            </scg:Dictionary>
+                                                                          </sap:WorkflowViewStateService.ViewState>
+                                                                        </uix:NTypeInto>
+                                                                      </Sequence>
+                                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Reference#'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NTypeInto_20" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[CurrentRow(2).ToString]" Version="V4">
+                                                                        <uix:NTypeInto.Target>
+                                                                          <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" ContentHash="Bq1OggePvUGurpsDiZKoNg" CvElementArea="897, 648, 395, 39" CvType="InputBox" DesignTimeRectangle="899, 649, 393, 37" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='reference-number' tag='INPUT' type='text' class='ember-text-field ember-view form-control' aaname='                    Reference#                          ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="877a9d61-2f4a-4c6b-9789-0ad8d629492a" InformativeScreenshot="8d9d3958280859c4a62e5b3e5e71d161.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/Jx7Dq9sj1UyzuHbkRyIAGQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                                            <uix:TargetAnchorable.Anchors>
+                                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                                <uix:Target CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" CvTextArea="898, 627, 71, 13" CvTextArgument="Reference#" CvType="Text" DesignTimeRectangle="899, 625, 70, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                          ' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Reference#' /&gt;" Guid="5d29ad02-df05-45d8-bb9c-2dad46eab43d" SearchSteps="FuzzySelector, CV" />
+                                                                              </scg:List>
+                                                                            </uix:TargetAnchorable.Anchors>
+                                                                          </uix:TargetAnchorable>
+                                                                        </uix:NTypeInto.Target>
+                                                                        <uix:NTypeInto.VerifyOptions>
+                                                                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                              <InArgument x:TypeArguments="x:Double" />
+                                                                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                          </uix:VerifyExecutionTypeIntoOptions>
+                                                                        </uix:NTypeInto.VerifyOptions>
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                      </uix:NTypeInto>
+                                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NTypeInto_21" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[CurrentRow(3).ToString]" Version="V4">
+                                                                        <uix:NTypeInto.Target>
+                                                                          <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" ContentHash="xPOmu8NPwUiHW1td4ArVIQ" CvElementArea="970, 402, 322, 39" CvType="InputBox" DesignTimeRectangle="970, 403, 322, 37" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='ember338' tag='INPUT' /&gt;" Guid="b9fb1020-ba74-4667-a59e-2740e61d42ab" InformativeScreenshot="32c826307f1112c3b1d968d4f50c7948.png" Reference="cOOgsV6AuUWWlOfbT8aEXg/5KXOzqxUtkitBH5rYOHiHA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                                            <uix:TargetAnchorable.Anchors>
+                                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                                <uix:Target CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" CvTextArea="897, 381, 60, 12" CvTextArgument="Amount *" CvType="Text" DesignTimeRectangle="899, 378, 58, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='       Amount     ' class='required' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Amount' /&gt;" Guid="aaa91f5f-7105-4aed-83e6-b9a6a360c96b" SearchSteps="FuzzySelector, CV" />
+                                                                              </scg:List>
+                                                                            </uix:TargetAnchorable.Anchors>
+                                                                          </uix:TargetAnchorable>
+                                                                        </uix:NTypeInto.Target>
+                                                                        <uix:NTypeInto.VerifyOptions>
+                                                                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                              <InArgument x:TypeArguments="x:Double" />
+                                                                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                          </uix:VerifyExecutionTypeIntoOptions>
+                                                                        </uix:NTypeInto.VerifyOptions>
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                      </uix:NTypeInto>
+                                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Description'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NTypeInto_22" InteractionMode="DebuggerApi" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Text="[CurrentRow(4).ToString +&quot; &quot;+ CurrentRow(5).ToString +&quot; &quot;+ CurrentRow(6).ToString]" Version="V4">
+                                                                        <uix:NTypeInto.Target>
+                                                                          <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" ContentHash="exUOXqISjEqofdXVBkG--Q" CvElementArea="897, 545, 397, 60" CvType="InputBox" DesignTimeRectangle="899, 547, 393, 57" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='description' tag='TEXTAREA' type='' class='ember-text-area ember-view form-control' aaname='                Description                   ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="736e20ca-80aa-43bb-935c-87265b287a49" InformativeScreenshot="b5f2f30a0b695d078c46442c85c6b409.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/LSpveKXZr0-zCi_H8SAAtg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                                                            <uix:TargetAnchorable.Anchors>
+                                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                                <uix:Target CVScreenId="9e17ab68-1d04-48c4-959d-ed075aa4075d" CvTextArea="898, 525, 71, 16" CvTextArgument="Description" CvType="Text" DesignTimeRectangle="899, 523, 70, 19" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                   ' tag='LABEL' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Description' /&gt;" Guid="5f68ca1b-62e3-47f6-b102-f03d49fd7fa3" SearchSteps="FuzzySelector, CV" />
+                                                                              </scg:List>
+                                                                            </uix:TargetAnchorable.Anchors>
+                                                                          </uix:TargetAnchorable>
+                                                                        </uix:NTypeInto.Target>
+                                                                        <uix:NTypeInto.VerifyOptions>
+                                                                          <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                                            <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                                            </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                                            <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                              <InArgument x:TypeArguments="x:Double" />
+                                                                            </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                                          </uix:VerifyExecutionTypeIntoOptions>
+                                                                        </uix:NTypeInto.VerifyOptions>
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                      </uix:NTypeInto>
+                                                                      <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="YesNo" ChosenButton="[TudoCorr_resposta]" DisplayName="Confirmar..." sap:VirtualizedContainerService.HintSize="450,118" sap2010:WorkflowViewState.IdRef="MessageBox_76" Text="[&quot;Esta tudo correcto? (Edite o que precisar)&quot;]">
                                                                         <sap:WorkflowViewStateService.ViewState>
                                                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1679,7 +1639,43 @@
                                                                           </scg:Dictionary>
                                                                         </sap:WorkflowViewStateService.ViewState>
                                                                       </ui:MessageBox>
-                                                                      <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Submeter formulario n" ClickType="Single" DisplayName="Click 'Save and New(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,249" sap2010:WorkflowViewState.IdRef="NClick_29" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
+                                                                      <If sap2010:Annotation.AnnotationText="Tentar com retry scope" Condition="[TudoCorr_resposta.Equals(&quot;Yes&quot;)]" DisplayName="Verificar se esta tudo de acordo" sap:VirtualizedContainerService.HintSize="450,508" sap2010:WorkflowViewState.IdRef="If_2">
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                        <If.Then>
+                                                                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,169" sap2010:WorkflowViewState.IdRef="Sequence_131">
+                                                                            <sap:WorkflowViewStateService.ViewState>
+                                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                              </scg:Dictionary>
+                                                                            </sap:WorkflowViewStateService.ViewState>
+                                                                            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:02" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="382,109" sap2010:WorkflowViewState.IdRef="MessageBox_85" Text="[&quot;Submetendo&quot;]" />
+                                                                          </Sequence>
+                                                                        </If.Then>
+                                                                        <If.Else>
+                                                                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,169" sap2010:WorkflowViewState.IdRef="Sequence_132">
+                                                                            <sap:WorkflowViewStateService.ViewState>
+                                                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                              </scg:Dictionary>
+                                                                            </sap:WorkflowViewStateService.ViewState>
+                                                                            <ui:MessageBox Caption="{x:Null}" AutoCloseAfter="00:00:00" Buttons="Ok" ChosenButton="[TudoCorr_resposta]" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="382,109" sap2010:WorkflowViewState.IdRef="MessageBox_78" Text="[&quot;Por favor corrija depois clique OK&quot;]">
+                                                                              <sap:WorkflowViewStateService.ViewState>
+                                                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                                </scg:Dictionary>
+                                                                              </sap:WorkflowViewStateService.ViewState>
+                                                                            </ui:MessageBox>
+                                                                          </Sequence>
+                                                                        </If.Else>
+                                                                      </If>
+                                                                      <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Submeter formulario n" ClickType="Single" DisplayName="Click 'Save and New(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,258" sap2010:WorkflowViewState.IdRef="NClick_39" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
                                                                         <uix:NClick.Target>
                                                                           <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="3531037f-afb9-46d7-b90f-f23ec44c4bc1" ContentHash="GoFsHlvpLkCtOpTSE8F4Kg" CvElementArea="1117, 719, 113, 38" CvTextArea="1128, 731, 89, 13" CvTextArgument="Save and New" CvType="Button" DesignTimeRectangle="1118, 721, 110, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember185' tag='BUTTON' /&gt;" Guid="4c84eb15-9533-42f5-8a0a-43ddf7597ecd" InformativeScreenshot="a429acb83b70e312d9565a02b7fb4588.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/XvUpy1vFIE-26IP-abb25w" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ZohoExpenseRef' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
                                                                         </uix:NClick.Target>
@@ -1704,20 +1700,21 @@
                                                                           </scg:Dictionary>
                                                                         </sap:WorkflowViewStateService.ViewState>
                                                                       </uix:NClick>
+                                                                      <Delay Duration="00:00:06" sap:VirtualizedContainerService.HintSize="382,114" sap2010:WorkflowViewState.IdRef="Delay_10" />
                                                                     </Sequence>
-                                                                  </If.Else>
-                                                                </If>
-                                                              </Sequence>
-                                                            </ActivityAction>
-                                                          </ui:ForEachRow.Body>
-                                                          <sap:WorkflowViewStateService.ViewState>
-                                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                                            </scg:Dictionary>
-                                                          </sap:WorkflowViewStateService.ViewState>
-                                                        </ui:ForEachRow>
-                                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save and Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="486,220" sap2010:WorkflowViewState.IdRef="NClick_34" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
+                                                                  </ActivityAction>
+                                                                </ui:ForEachRow.Body>
+                                                                <sap:WorkflowViewStateService.ViewState>
+                                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                  </scg:Dictionary>
+                                                                </sap:WorkflowViewStateService.ViewState>
+                                                              </ui:ForEachRow>
+                                                            </Sequence>
+                                                          </If.Else>
+                                                        </If>
+                                                        <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save and Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="522,220" sap2010:WorkflowViewState.IdRef="NClick_34" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
                                                           <uix:NClick.Target>
                                                             <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="a2afa8e0-693e-4deb-87ac-d35a3d2b2baf" ContentHash="Q6MVARpJd06ogNasgmTVvQ" CvElementArea="991, 719, 120, 38" CvTextArea="1003, 731, 96, 13" CvTextArgument="Save and Close" CvType="Button" DesignTimeRectangle="993, 721, 117, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember191' tag='BUTTON' /&gt;" Guid="931be82e-e80a-4a98-a919-c2029f6866e9" InformativeScreenshot="24bd0da07e90d52f5e262f13a5b3a89b.png" Reference="cOOgsV6AuUWWlOfbT8aEXg/H9bUisLiBU628HBoYokAYA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
                                                           </uix:NClick.Target>

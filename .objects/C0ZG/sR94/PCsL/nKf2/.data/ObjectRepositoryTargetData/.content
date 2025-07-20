@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8LJ9u3fWXUWVSms_GOwvEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="d23e1aed-d5c6-42f5-9e46-dc9137c0c3db" CvElementArea="1262, 137, 39, 36" CvType="CloseButton" DesignTimeRectangle="1264, 138, 35, 35" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='fullscreen-outlet' tag='svg' /&gt;" Guid="2436f4e8-92ec-4c76-859c-bda9b75b67d7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | RPA Test | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="76715f9edcbcb38e70bb1901652839ed.png" xmlns="">09-O-LX8u50O-JzAT7EY9QQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

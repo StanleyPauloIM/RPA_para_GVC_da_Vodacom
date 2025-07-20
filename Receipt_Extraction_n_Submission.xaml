@@ -1755,7 +1755,7 @@
                                                                         </ui:RetryScope.ActivityBody>
                                                                         <ui:RetryScope.Condition>
                                                                           <ActivityFunc x:TypeArguments="x:Boolean">
-                                                                            <uix:NCheckState DisplayName="Check App State '× Please enter a valid …'" EnableIfExists="False" EnableIfNotExists="False" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="450,179" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Timeout="2" Version="V4">
+                                                                            <uix:NCheckState DisplayName="Check App State '× Please enter a valid …'" EnableIfExists="False" EnableIfNotExists="False" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="450,179" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
                                                                               <uix:NCheckState.IfExists>
                                                                                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_157">
                                                                                   <sap:WorkflowViewStateService.ViewState>

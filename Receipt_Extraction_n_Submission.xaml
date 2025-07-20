@@ -1023,7 +1023,7 @@
                                               <ActivityAction.Argument>
                                                 <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                                               </ActivityAction.Argument>
-                                              <Sequence DisplayName="Logging in to..." sap:VirtualizedContainerService.HintSize="1198,4476" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                                              <Sequence DisplayName="Logging in to..." sap:VirtualizedContainerService.HintSize="1198,4734" sap2010:WorkflowViewState.IdRef="Sequence_114">
                                                 <Sequence.Variables>
                                                   <Variable x:TypeArguments="sd:DataTable" Name="dt_recibos" />
                                                 </Sequence.Variables>
@@ -1390,7 +1390,7 @@
                                                     </Sequence>
                                                   </TryCatch.Finally>
                                                 </TryCatch>
-                                                <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[FilesLocation]" sap:VirtualizedContainerService.HintSize="1164,3487" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                                                <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="[FilesLocation]" sap:VirtualizedContainerService.HintSize="1164,3745" sap2010:WorkflowViewState.IdRef="ForEachFileX_3" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
                                                   <ui:ForEachFileX.Body>
                                                     <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
                                                       <ActivityAction.Argument1>
@@ -1399,7 +1399,7 @@
                                                       <ActivityAction.Argument2>
                                                         <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
                                                       </ActivityAction.Argument2>
-                                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1130,3200" sap2010:WorkflowViewState.IdRef="Sequence_121">
+                                                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1130,3458" sap2010:WorkflowViewState.IdRef="Sequence_121">
                                                         <Sequence.Variables>
                                                           <Variable x:TypeArguments="x:Boolean" Name="validade" />
                                                         </Sequence.Variables>
@@ -1408,7 +1408,7 @@
                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                           </scg:Dictionary>
                                                         </sap:WorkflowViewStateService.ViewState>
-                                                        <If sap2010:Annotation.AnnotationText="Trocar essa condicao para &quot;Diferente de&quot;" Condition="[validFiles.Extension.Equals(&quot;.xlsx&quot;, StringComparison.OrdinalIgnoreCase)]" sap:VirtualizedContainerService.HintSize="1096,3140" sap2010:WorkflowViewState.IdRef="If_4">
+                                                        <If sap2010:Annotation.AnnotationText="Trocar essa condicao para &quot;Diferente de&quot;" Condition="[validFiles.Extension.Equals(&quot;.xlsx&quot;, StringComparison.OrdinalIgnoreCase)]" sap:VirtualizedContainerService.HintSize="1096,3398" sap2010:WorkflowViewState.IdRef="If_4">
                                                           <sap:WorkflowViewStateService.ViewState>
                                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                               <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -1461,7 +1461,7 @@
                                                             </Sequence>
                                                           </If.Then>
                                                           <If.Else>
-                                                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1094,2757" sap2010:WorkflowViewState.IdRef="Sequence_147">
+                                                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="1094,3015" sap2010:WorkflowViewState.IdRef="Sequence_147">
                                                               <sap:WorkflowViewStateService.ViewState>
                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1517,13 +1517,13 @@
                                                                   </scg:Dictionary>
                                                                 </sap:WorkflowViewStateService.ViewState>
                                                               </uix:NTypeInto>
-                                                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_recibos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1060,2219" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+                                                              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_recibos]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1060,2477" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
                                                                 <ui:ForEachRow.Body>
                                                                   <ActivityAction x:TypeArguments="sd:DataRow">
                                                                     <ActivityAction.Argument>
                                                                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                                                                     </ActivityAction.Argument>
-                                                                    <Sequence DisplayName="Introduzindo os dados no formulario" sap:VirtualizedContainerService.HintSize="1058,2046" sap2010:WorkflowViewState.IdRef="Sequence_123">
+                                                                    <Sequence DisplayName="Introduzindo os dados no formulario" sap:VirtualizedContainerService.HintSize="1058,2304" sap2010:WorkflowViewState.IdRef="Sequence_123">
                                                                       <Sequence.Variables>
                                                                         <Variable x:TypeArguments="x:String" Name="TudoCorr_resposta" />
                                                                       </Sequence.Variables>
@@ -1763,7 +1763,7 @@
                                                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                                           </scg:Dictionary>
                                                                         </sap:WorkflowViewStateService.ViewState>
-                                                                        <uix:NCheckState DisplayName="Check App State '× Please enter a valid …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="990,412" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Timeout="1" Version="V4">
+                                                                        <uix:NCheckState DisplayName="Check App State '× Please enter a valid …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="990,412" sap2010:WorkflowViewState.IdRef="NCheckState_8" Mode="WaitDisappear" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Timeout="3" Version="V4">
                                                                           <uix:NCheckState.IfExists>
                                                                             <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,170" sap2010:WorkflowViewState.IdRef="Sequence_162">
                                                                               <sap:WorkflowViewStateService.ViewState>
@@ -1782,7 +1782,7 @@
                                                                             </Sequence>
                                                                           </uix:NCheckState.IfExists>
                                                                           <uix:NCheckState.IfNotExists>
-                                                                            <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,170" sap2010:WorkflowViewState.IdRef="Sequence_158">
+                                                                            <Sequence DisplayName="Target does not disappear" sap:VirtualizedContainerService.HintSize="468,170" sap2010:WorkflowViewState.IdRef="Sequence_158">
                                                                               <sap:WorkflowViewStateService.ViewState>
                                                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1809,7 +1809,7 @@
                                                                           </sap:WorkflowViewStateService.ViewState>
                                                                         </uix:NCheckState>
                                                                       </Sequence>
-                                                                      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="1024,466" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+                                                                      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="1024,475" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
                                                                         <ui:InterruptibleDoWhile.Body>
                                                                           <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,344" sap2010:WorkflowViewState.IdRef="Sequence_159">
                                                                             <sap:WorkflowViewStateService.ViewState>
@@ -1881,9 +1881,34 @@
                                                                           </Sequence>
                                                                         </ui:InterruptibleDoWhile.Body>
                                                                         <ui:InterruptibleDoWhile.Condition>
-                                                                          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="validade.Equals(True)" />
+                                                                          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="validade.Equals(False)" />
                                                                         </ui:InterruptibleDoWhile.Condition>
                                                                       </ui:InterruptibleDoWhile>
+                                                                      <uix:NClick ActivateBefore="True" sap2010:Annotation.AnnotationText="Submeter formulario n" ClickType="Single" DelayAfter="[6s]" DisplayName="Click 'Save and New(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1024,249" sap2010:WorkflowViewState.IdRef="NClick_41" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="8dbcda22-c3bf-4e30-9f55-05ae21b0ff0c" Version="V4">
+                                                                        <uix:NClick.Target>
+                                                                          <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="3531037f-afb9-46d7-b90f-f23ec44c4bc1" ContentHash="GoFsHlvpLkCtOpTSE8F4Kg" CvElementArea="1117, 719, 113, 38" CvTextArea="1128, 731, 89, 13" CvTextArgument="Save and New" CvType="Button" DesignTimeRectangle="1118, 721, 110, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember185' tag='BUTTON' /&gt;" Guid="4c84eb15-9533-42f5-8a0a-43ddf7597ecd" InformativeScreenshot="a429acb83b70e312d9565a02b7fb4588.png" IsResponsive="True" Reference="cOOgsV6AuUWWlOfbT8aEXg/XvUpy1vFIE-26IP-abb25w" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ZohoExpenseRef' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                                                        </uix:NClick.Target>
+                                                                        <uix:NClick.VerifyOptions>
+                                                                          <uix:VerifyExecutionOptions DisplayName="Button 'Button 'Save and New''" Mode="Appears">
+                                                                            <uix:VerifyExecutionOptions.Retry>
+                                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                                            </uix:VerifyExecutionOptions.Retry>
+                                                                            <uix:VerifyExecutionOptions.Target>
+                                                                              <uix:TargetAnchorable BrowserURL="expense.zoho.com/app/886545915" CVScreenId="22d10b88-43b3-400b-9dcf-8c092b1492e1" ContentHash="w4vaIwAMeUazTwcjtxNuLA" CvElementArea="1117, 719, 113, 38" CvTextArea="1128, 732, 89, 12" CvTextArgument="Save and New" CvType="Button" DesignTimeRectangle="1118, 721, 110, 35" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ember168' tag='BUTTON' /&gt;" Guid="29d2efe6-64a7-4d31-ad95-8b92133de51f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHIAAAAnCAYAAADTnhw5AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUdSURBVHhe7Zs/aBtXHMe1adPm0Vs2bx6zafOmMZu2bhq9afOWqbikRCS0TgkRARMRaFQTECnEIcYVpqCSUjlD3RiDXQeMOxSK7vrr93v3fnfvTmf7rLjEz7wffJF07//v836/925QRbzdCPMgb4hlQP4TiPz5t8gff4nsnf7rdQ1FNmREVrYlIFngAbojsrJhJiBJuaiB1/UVmaklIH00uicyU0tAFlX0uv5S8yAdl5oH6bjUPEjHpeZBOi41D9JxqXmQjkvNg3RcarODPAml/zaQ5vpEmhuB9D6ExfVc0VEoa1jPsKjsNJQeyvqH02XDXwJZ2/18a1ebDeRRIHe+nsjct4G0scD29xO5tTqRxrbDMN8HcuvLiXSKyk4DaaCs8jiQUa6s8xRr33AU5PAVFvVdblE7gdQeBjKwn30MZbgfyuij9aykxgdoe1jCQcgMI45xXFAW6bxyU8b5lQBZuzeRxVfZORWCNOsen1jP/iepXR3IjJCKXkykiiiduw8H4HPhZbzY8Ru0zQHv9lDveRD/3g3kNqK9yoj/CkIUDM5wyOZrlKPvGsaI6q6ncxpswMHos9HBc5RXAULnEAnjLKBtNA4ANXA8XASytRW3ab9Py7IgQ+k+T9fNz+aOWTfmWnmUpu7Ih+jz7pHp612ANQTSvSR8tU9KrdUHE1lGat3MR87vWPgjOEXPlEPA0UmfoC2cvpw4A+csfrd+5fdQWnB8Yyt1DB01/yLXP3UcyDLGaO+a3+i3Ced98S7+TZAVANI5jEeBzMOxa1qX8HQcRPVqN3bseSA558FLrJsb0TjcBslNyrK+ZiCzWVa5bvisnoAL5e7jOMIb23Fdzrf2zGzmS0htNpAUFj/4CVDgTO686kM4YW+63hiQh78FsmgcwWfdZxYcOyVzV3awK5GWmJoiYYyplJ3XMeph89wBSNsxlae2Y1IY0TgPcn3yWQmQhLCCNS8YeCnIGE79R2vuUBt14znF7aLv2EiNe4F0EKW1HudolU2Nfb7UZgdpC1C7uPBUAKFvfq88iQEzxSwyqiyQCox1CXVxYKBuow/TJiOk8U2WZxSnMaZtptYFOHEBkV0KJMfJb44SZ2Qyf2SYOsZl9Nsgl7GZq4iy/PybO3G74cCA+xmbk3Pbxwa/Dz8wWtFfFLmZcS+W2gwgQ9nERKau3CZ90hF6hg6TfJ9zBPpgCm0BKNPsyr55XhQpZ4nOgBO6yUUqdmTpiKQDkzKI/ZUFCY22AAVR1URKtiNyactulxM3C8blLb/+OoXf4lxxFxgXtblAajNFZB8XGe7ovt4ENSLxOsLDPH8ZGnLROUfQ0XOAWX1iL2D6jOz/gHo4O6YWaUD2zGYZI33zPCoF0oyz9NaMg/kzBZY5I9Nn8fnNNmeekQdoh3HSy5GJWsxTN28ffqthM8dgtV55qc2WWrHwzjomhEXw1hd9IpLWDtLy9jdYJCY4h/J51GW0ZhzxIT43629yC9jD4pGOohSF9uy3W/AiHjkS/WoqrmG8JVy+yoGE9HaMcejIMrfWLEgIWaiB9gqSc7Jv6/y8nXtdIbhMWjeZIMlKl5Tap52RAHbeO1zpd8EC8ZJ09rthqugyhXGKysqIc7zy9z3jl1lS5WWldjWXHa/PJjUP0nGpeZCOS82DdFxqHqTjUvMgHZeaB+m41DxIx6WWgPT//XBPhf/98P/Gck+F/8by/490S2RV+P9IGgtI2QO9viIbMrIh0jIgvblrHuSNMJH/AP8MXRqZFXaDAAAAAElFTkSuQmCC" InformativeScreenshot="ecbb9d145d736bad5d673d7c85f2207d.png" Reference="cOOgsV6AuUWWlOfbT8aEXg/7GtUACghiUGEo1BeIhXXCA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | AAA | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                                                                            </uix:VerifyExecutionOptions.Target>
+                                                                            <uix:VerifyExecutionOptions.Timeout>
+                                                                              <InArgument x:TypeArguments="x:Double" />
+                                                                            </uix:VerifyExecutionOptions.Timeout>
+                                                                          </uix:VerifyExecutionOptions>
+                                                                        </uix:NClick.VerifyOptions>
+                                                                        <sap:WorkflowViewStateService.ViewState>
+                                                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                                            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                                                                          </scg:Dictionary>
+                                                                        </sap:WorkflowViewStateService.ViewState>
+                                                                      </uix:NClick>
                                                                     </Sequence>
                                                                   </ActivityAction>
                                                                 </ui:ForEachRow.Body>

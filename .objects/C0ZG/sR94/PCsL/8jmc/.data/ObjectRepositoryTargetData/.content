@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LjchBJGCwEKHFAFma1nb8g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" CVScreenId="f0301287-d37b-48ee-9d34-c12ef055823d" CvTextArea="321, 462, 246, 13" CvTextArgument="Attach receipts from computer or cloud" CvType="Text" DesignTimeRectangle="60, 481, 771, 22" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aaname='         Attach receipts from  or        ' parentid='ember237' tag='DIV' /&gt;" Guid="7c2e837e-5d32-483c-8de6-c0f68f4e13b9" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='ZohoExpenseRef' title='Add Expense | RPA Test | Reports | Zoho Expense' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="453, 482, 58, 20" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='attach-from-computer' tag='INPUT' type='file' /&gt;" Guid="f59752a2-b3f8-4ba9-aec6-2eba608ccb0c" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="abfe72288d4caf222090f67d19a75399.png" xmlns="">0MC9GuxYVq0KFZg9lNt9bow</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

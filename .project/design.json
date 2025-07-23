@@ -5,6 +5,12 @@
     },
     {
       "Key": "Vodacom"
+    },
+    {
+      "Key": "receipt automation"
+    },
+    {
+      "Key": "ocr"
     }
   ],
   "SeparateRuntimeDependencies": true,

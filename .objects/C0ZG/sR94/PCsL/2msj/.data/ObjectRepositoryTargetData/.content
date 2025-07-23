@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bASFFNHJ90mKTcjEC9fMSA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="expense.zoho.com/app/886545915" DesignTimeRectangle="916, 211, 359, 85" FullSelectorArgument="&lt;webctrl parentid='ember412' tag='DIV' /&gt;" Guid="25b3b951-01d7-4611-9978-f7abd9631cec" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Add Expense | RPA Test | Reports | Zoho Expense' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="c4440298cc05e75964b051abe5d83618.png" xmlns="">0PyDW3ed-1ESEvfo8s6PJjQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -5,8 +5,8 @@
       "Connections": [],
       "DocumentTypeId": "Invoices.Restaurante.Reciboderestaurante",
       "Group": "Invoices",
-      "Category": "Restaurante",
-      "Name": "Recibo de restaurante",
+      "Category": "",
+      "Name": "Recibos",
       "OptionalUniqueIdentifier": "",
       "TypeField": {
         "FieldId": "Invoices.Restaurante.Reciboderestaurante.DocumentType",
@@ -32,7 +32,7 @@
             }
           ],
           "RuleSet": {
-            "Criticality": "Should",
+            "Criticality": "Must",
             "Rules": [
               {
                 "Name": "Preenchido",
@@ -52,7 +52,7 @@
           "FieldName": "Date",
           "IsMultiValue": false,
           "Type": "Date",
-          "DeriveFieldsFormat": "",
+          "DeriveFieldsFormat": "day, month, year",
           "Components": [],
           "SetValues": [],
           "Metadata": [
@@ -66,7 +66,7 @@
             }
           ],
           "RuleSet": {
-            "Criticality": "Should",
+            "Criticality": "Must",
             "Rules": [
               {
                 "Name": "Preenchido",
@@ -104,7 +104,7 @@
             }
           ],
           "RuleSet": {
-            "Criticality": "Should",
+            "Criticality": "Must",
             "Rules": [
               {
                 "Name": "Preenchido",
@@ -138,7 +138,7 @@
             }
           ],
           "RuleSet": {
-            "Criticality": "Should",
+            "Criticality": "Must",
             "Rules": [
               {
                 "Name": "Preenchido",
@@ -261,210 +261,6 @@
         },
         {
           "Key": "NumberDisplayFormat",
-          "Value": "{\"DecimalSeparator\":\".\",\"ThousandsSeparator\":\"\"}"
-        }
-      ]
-    },
-    {
-      "Connections": [],
-      "DocumentTypeId": "Invoices.Hotel.RecibodeHotel",
-      "Group": "Invoices",
-      "Category": "Hotel",
-      "Name": "Recibo de Hotel",
-      "OptionalUniqueIdentifier": "",
-      "TypeField": {
-        "FieldId": "Invoices.Hotel.RecibodeHotel.DocumentType",
-        "FieldName": "Document Type"
-      },
-      "Fields": [
-        {
-          "FieldId": "Invoices.Hotel.RecibodeHotel.InvoiceType",
-          "FieldName": "Type",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#038a18"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "v"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": "",
-          "DataSource": null
-        },
-        {
-          "FieldId": "Invoices.Hotel.RecibodeHotel.InvoiceNumber",
-          "FieldName": "Receipt Number",
-          "IsMultiValue": false,
-          "Type": "Number",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#9372b2"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "c"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": "",
-          "DataSource": null
-        },
-        {
-          "FieldId": "Invoices.Hotel.RecibodeHotel.InvoiceTotal",
-          "FieldName": "Total",
-          "IsMultiValue": false,
-          "Type": "Number",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#20389d"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "e"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": "",
-          "DataSource": null
-        },
-        {
-          "FieldId": "Invoices.Hotel.RecibodeHotel.InvoiceDate",
-          "FieldName": "Date",
-          "IsMultiValue": false,
-          "Type": "Date",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#fda891"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "a"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": "",
-          "DataSource": null
-        },
-        {
-          "FieldId": "Invoices.Hotel.RecibodeHotel.InvoiceLocation",
-          "FieldName": "Vdr. Address",
-          "IsMultiValue": false,
-          "Type": "Address",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#7359f8"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "l"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": "",
-          "DataSource": null
-        },
-        {
-          "FieldId": "Invoices.Hotel.RecibodeHotel.InvoiceMerchant",
-          "FieldName": "Merchant/Provider",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#65cbc7"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "m"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": "",
-          "DataSource": null
-        },
-        {
-          "FieldId": "Invoices.Hotel.RecibodeHotel.PurItems",
-          "FieldName": "Pur. Items",
-          "IsMultiValue": true,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#279aab"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "r"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": "",
-          "DataSource": null
-        },
-        {
-          "FieldId": "Invoices.Hotel.RecibodeHotel.Payer",
-          "FieldName": "Payer",
-          "IsMultiValue": false,
-          "Type": "Text",
-          "DeriveFieldsFormat": "",
-          "Components": [],
-          "SetValues": [],
-          "Metadata": [
-            {
-              "Key": "Color",
-              "Value": "#fda891"
-            },
-            {
-              "Key": "Hotkey",
-              "Value": "y"
-            }
-          ],
-          "RuleSet": null,
-          "DefaultValue": "",
-          "DataSource": null
-        }
-      ],
-      "Metadata": [
-        {
-          "Key": "OCRConfidenceThreshold",
-          "Value": "0.9"
-        },
-        {
-          "Key": "DateDisplayFormat",
-          "Value": "dd-MM-yyyy"
-        },
-        {
-          "Key": "NumberDisplayFormat",
           "Value": "{\"DecimalSeparator\":\",\",\"ThousandsSeparator\":\"\"}"
         }
       ]
@@ -474,8 +270,7 @@
     {
       "Name": "Invoices",
       "Categories": [
-        "Restaurante",
-        "Hotel"
+        "Restaurante"
       ]
     }
   ],
